@@ -1,0 +1,14 @@
+.product-list {
+  list-style: none;
+  padding: 0;
+  display: table;
+  width: 100%;
+}
+
+@media(max-width: 991px) {
+  .product-list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,26 @@
+.button {
+  background-color: #feee00;
+  border: 0;
+  padding: 10px 20px;
+  line-height: 0;
+  height: 28px;
+  min-width: unset;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+
+.button.button-block {
+  width: 100%;
+  outline: #2daf32;
+}
+
+.button:hover {
+  background-color: #fff114;
+}
+
+.button:focus {
+  outline-color: #2daf32;
+  background-color: #fff114;
+}

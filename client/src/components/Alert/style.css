@@ -1,0 +1,23 @@
+.alert {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  max-width: calc(100% - 40px);
+  width: 250xp;
+  min-width: 150px;
+}
+.alert-warning {
+  background-color: yellowgreen;
+  color: #fff;
+  border: 1px solid #ccc;
+}
+.alert-success {
+  background-color: green;
+  color: #fff;
+  border: 1px solid #ccc;
+}
+.alert-danger {
+  background-color: red;
+  color: #fff;
+  border: 1px solid #ccc;
+}

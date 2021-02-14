@@ -1,0 +1,10 @@
+.product-search-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-search-form #search,
+.product-search-form #search input {
+  width: 100%;
+}

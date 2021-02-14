@@ -1,0 +1,33 @@
+.pagination {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.pagination a {
+  border: 1px solid;
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 0.8em;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.pagination a.next-link {
+  margin-right: 0;
+}
+
+.pagination a.disabled-link {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.page-span {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
