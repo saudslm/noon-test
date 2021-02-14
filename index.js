@@ -70,6 +70,8 @@ app.get('*', (req,res) =>{
   res.sendFile(path.join(__dirname+'/client/build/index.html'));
 });
 
-app.listen(3001, () =>
-  console.log('Express server is running on localhost:3001')
+
+const port = process.env.PORT || 3001;
+app.listen(port, () =>
+  console.log('Express server is running on localhost:' + port)
 );
